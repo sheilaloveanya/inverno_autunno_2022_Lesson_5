@@ -1,0 +1,149 @@
+@import "reset.css";
+
+/*@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Montserrat:ital,wght@0,200;1,900&display=swap');*/
+
+
+@font-face {
+	font-family: "Caveat";
+	src: url("../fonts/Caveat-Regular.woff2") format("woff2"), url("../fonts/Caveat-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Caveat";
+	src: url("../fonts/Caveat-Bold.woff2") format("woff2"), url("../fonts/Caveat-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-ExtraLight.woff2") format("woff2"), url("../fonts/Montserrat-ExtraLight.woff");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;	
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-BlackItalic.woff2") format("woff2"), url("../fonts/Montserrat-BlackItalic.woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;	
+}
+
+
+
+
+h1 {
+	color: palegreen;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 60px;
+	text-transform: capitalize;
+	width: 500px;
+	margin: 30px 20px 15px 50px;
+}
+
+div{
+	color: peru;
+	font-size: 25px;	
+}
+
+h2 {
+	color: rgb(64, 17, 111);
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	margin: 30px 20px 15px 50px;
+}
+
+.list {
+	color: rgba(0, 0, 139, 0.696);
+	font-family: "Montserrat", sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	text-decoration: underline;
+	word-spacing: 30px;
+	padding: 40px 300px;
+	line-height: 40px;		
+}
+
+.text {
+	color: brown;
+}
+
+.footer {
+	color: gold;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 40px;
+	text-indent: 40px;
+	white-space: nowrap;
+}
+
+.color-blue {
+	color: blueviolet;	
+}
+
+#select-nine {
+	color: chartreuse;
+	text-transform: lowercase;
+	line-height: 1.5;
+	padding: 50px 80px;
+}
+
+div .page {
+	color: bisque;
+}
+
+.page.text {
+	color: darkorange;
+}
+
+.text p {
+	color: gold;
+}
+
+.text > p {
+	color: pink;
+	text-shadow: 2px 3px 1px rgb(255, 75, 10);
+	margin: 20px;
+	
+}
+.text ~ p {
+	color: silver;
+	font-family: "Caveat", cursive;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: justify;
+}
+
+.text + p {
+	color: green;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 15px;
+	text-align: right;
+	text-decoration: line-through;	
+}
+
+.text, 
+.page-one {
+	color: hotpink;
+	font-family: "Caveat", cursive;
+	font-weight: 700;
+	font-size: 30px;
+}	
+
+
+
+
+
